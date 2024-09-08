@@ -18,6 +18,10 @@ Gradient magnitude = √(〖grad_x〗^2+ 〖grad_y〗^2 ) <br/>
 ![image](https://github.com/user-attachments/assets/bba8334b-8ef8-4310-bdf7-8579f11ebc86) <br/>
 
 Corner Detection)  <br/>
+The Original Image: <br/>
+![building](https://github.com/user-attachments/assets/d9da7765-92df-46ee-80f2-a4333b6bf695) <br/>
+
+Corner response: <br/>
 ![image](https://github.com/user-attachments/assets/8b572c3b-83ac-4746-b9ba-2e4555484343) <br/>
 
 I tried different thresholds like 1.0e-02 to 1.0e-06 first, realized 1.0e-04 is the best since it shows the corner of the windows on the buildings in the image. 4.0e-04 is too high and removes these points (this fact is more easily visible in the plot where it marks the points with an x) so I just used 2.5e-04 which is in the middle of this range (1.0e-04 to 4.0e-04). <br/>
